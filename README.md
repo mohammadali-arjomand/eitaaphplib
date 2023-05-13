@@ -1,6 +1,5 @@
 # EitaaPHP-lib
-## What is this?
-It's a lightweight library for working with eitaayar api in php
+EitaaPHP-lib a lightweight library for working with eitaayar api in php
 
 ## How to add in project?
 to add this library to your project:
