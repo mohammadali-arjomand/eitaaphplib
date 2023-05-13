@@ -1,20 +1,18 @@
 <?php
 
-define("NOW", time());
-
 // eitaa main class
-class Eitaa {
+class EitaaPHP {
     // properties
     public $token;
     public $channel_id;
 
     // methods
-    function __construct($token, $channel_id) {
+    public function __construct($token, $channel_id) {
         $this->token = $token;
         $this->channel_id = $channel_id;
     }
 
-    function sendMessage($text, $other=[]) {
+    public function sendMessage($text, $other=[]) {
         // send a message to channel
         $url = "https://eitaayar.ir/api/$this->token/sendMessage";
         $fields = array(
@@ -33,7 +31,7 @@ class Eitaa {
         return $output;
     }
 
-    function sendFile($file_path, $other=[]) {
+    public function sendFile($file_path, $other=[]) {
         // send a file to channel
         $url = "https://eitaayar.ir/api/$this->token/sendFile";
         $fields = array(
