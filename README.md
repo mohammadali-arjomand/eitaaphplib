@@ -10,7 +10,7 @@ to add this library to your project:
 ```
 $ git clone https://github.com/mohammadali-arjomand/eitaaphplib.git
 ```
-3. include library file to use it.
+3. include library file for use it.
 ```php
 include "eitaaphplib.php";
 ```
