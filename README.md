@@ -25,7 +25,7 @@ $channel_id = 23333622;
 ```
 2. now, create a object from Eitaa class.
 ```php
-$eitaa = new Eitaa($token, $channel_id);
+$eitaa = new EitaaPHP($token, $channel_id);
 ```
 3. use sendMessage or sendFile methods to sending.
 ```php
