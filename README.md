@@ -1,7 +1,7 @@
 # EitaaPHP-lib
 EitaaPHP-lib a lightweight library for working with eitaayar api in php
 
-## How to add in project?
+## How to add it in project?
 to add this library to your project:
 
 1. install git. [how to install?](https://git-scm.com/downloads)
