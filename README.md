@@ -41,3 +41,5 @@ $eitaa->sendMessgae("YOUR_TEXT_TO_SEND", ["OTHER_PARAMETER" => "VALUE"]);
 // send file
 $eitaa->sendFile("YOUR_FILE_PATH_TO_SEND", ["OTHER_PARAMETER" => "VALUE"]);
 ```
+>### Examples
+> you can see examples code in `./examples`
