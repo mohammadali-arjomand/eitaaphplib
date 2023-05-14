@@ -11,4 +11,4 @@ $channel_id = 23333622; // or use channel id like: "eitaa_faq" for https://eitaa
 $eitaa = new EitaaPHP($token, $channel_id);
 
 // use sendFile method for send file in your channel or supergroup
-$eitaa->sendFile("WRITE YOUR FILE PATH HERE");
+$eitaa->sendFile("./nature.jpg");

@@ -11,4 +11,4 @@ $channel_id = 23333622; // or use channel id like: "eitaa_faq" for https://eitaa
 $eitaa = new EitaaPHP($token, $channel_id);
 
 // use sendMessage method for send message in your channel or supergroup
-$eitaa->sendMessage("WRITE YOUR TEXT HERE");
+$eitaa->sendMessage("hello, how are you?");
