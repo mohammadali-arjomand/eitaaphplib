@@ -12,13 +12,13 @@ $eitaa = new EitaaPHP($token, $channel_id);
 
 // set other
 $other = [
-    "caption" => "hello, i take this photo", // set caption
-    "title" => "nature photo",  // set in eitaayar panel
-    "disable_notification" => false, // enable notification (it's default)
-    "reply_to_message_id" => 5, // reply to message id 5
-    "date" => time() + 30, // send after 30 seconds
-    "pin" => true, // will pinned
-    "viewCountForDelete" => 1000 // will deleted after 1k see
+    CAPTION => "hello, i take this photo", // set caption
+    TITLE => "nature photo",  // set in eitaayar panel
+    DISABLE_NOTIFICATION => false, // enable notification (it's default)
+    REPLY_TO_MESSAGE_ID => 5, // reply to message id 5
+    DATE => time() + 30, // send after 30 seconds
+    PIN => true, // will pinned
+    VIEW_COUNT_FOR_DELETE => 1000 // will deleted after 1k see
 ];
 
 // use sendFile method for send file in your channel or supergroup

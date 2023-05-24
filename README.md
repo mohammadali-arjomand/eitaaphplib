@@ -34,12 +34,12 @@ $eitaa->sendMessgae("YOUR_TEXT_TO_SEND");
 // send file
 $eitaa->sendFile("YOUR_FILE_PATH_TO_SEND");
 ```
-4. you can use other parameters in methods ([See other parameters](https://eitaayar.ir/assets/download/API_eitaayar.ir.pdf)).
+4. you can use other parameters in methods (See other parameters document: `~/docs/other-argument.md`).
 ```php
 // send message
-$eitaa->sendMessgae("YOUR_TEXT_TO_SEND", ["OTHER_PARAMETER" => "VALUE"]);
+$eitaa->sendMessgae("YOUR_TEXT_TO_SEND", [OTHER_PARAMETER => "VALUE"]);
 // send file
-$eitaa->sendFile("YOUR_FILE_PATH_TO_SEND", ["OTHER_PARAMETER" => "VALUE"]);
+$eitaa->sendFile("YOUR_FILE_PATH_TO_SEND", [OTHER_PARAMETER => "VALUE"]);
 ```
 >### Examples
 > you can see examples code in `~/examples`

@@ -1,5 +1,8 @@
 <?php
 
+// include constants
+include "./constants.php";
+
 // eitaa main class
 class EitaaPHP {
     // properties
