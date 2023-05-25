@@ -1,20 +1,24 @@
 # EitaaPHP
-EitaaPHP is a lightweight library for working with eitaayar api in php
+EitaaPHP is a lightweight library for working with Eitaayar api in php
 
-## How to add it in project?
-to add this library to your project:
+## How to add it in my project?
 
-1. install git. [how to install?](https://git-scm.com/downloads)
-2. run this command in your root project.
+--------------------------------
+### 1. with composer
+```
+$ composer require arjomand/eitaa
+```
+### 2. with git
 ```
 $ git clone https://github.com/mohammadali-arjomand/eitaaphplib.git
 ```
-3. include library file for use it.
-
+> #### NOTICE
+> if you use git for add library to your project, you should also add cURL in your project
+--------------------------------
+now you should include library file:
 ```php
 include "eitaa.php";
 ```
-now you can use this library.
 
 ## How to use it?
 for use this library:
