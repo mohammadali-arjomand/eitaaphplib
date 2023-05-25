@@ -6,5 +6,6 @@
     "php": "^5.6 | ^7.0 | ^8.0",
     "curl/curl": "2.*"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "prefer-stable": true
 }
