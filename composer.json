@@ -1,0 +1,8 @@
+{
+  "name": "arjomand/eitaa",
+  "description": "A lightweight library for working with Eitaayar api",
+  "require": {
+    "php": ">=7.4",
+    "curl/curl": "2.*"
+  }
+}
